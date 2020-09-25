@@ -1,7 +1,7 @@
 {
     "name": "json-bigi",
     "description": "Big number support in JSON",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "./index.js",
     "author": {
         "name": "Pradeep Mishra"
