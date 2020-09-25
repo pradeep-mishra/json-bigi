@@ -1,0 +1,20 @@
+{
+    "name": "json-bignumber",
+    "description": "Big number support in JSON",
+    "version": "0.0.1",
+    "main": "./index.js",
+    "author": {
+        "name": "Pradeep Mishra"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pradeep-mishra/json-bignumber.git"
+    },
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "keywords": [
+        "csv",
+        "big int",
+        "big number"
+    ]
+}
