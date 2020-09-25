@@ -15,7 +15,7 @@ if (typeof (BigInt) == 'undefined') {
 
 function addBigInt(key, value) {
     if (typeof (value) == "string" && value.match(isBigNumber)) {
-        console.log('2', value)
+        //console.log('2', value)
         return BigInt(value.slice(0, -1));
     }
     return value;
@@ -24,7 +24,7 @@ function addBigInt(key, value) {
 function cParse(json) {
     if (json.match(isBig)) {
         let jtxt = json.replace(isBig, '"$1n"');
-        console.log('1', jtxt)
+        //console.log('1', jtxt)
         return parse(jtxt, addBigInt);
     }
     return parse(json);
@@ -33,7 +33,7 @@ function cParse(json) {
 
 function removeBigInt(key, value) {
     if (typeof value === 'bigint') {
-        console.log('3', value)
+        //console.log('3', value)
         return value.toString();
     } else {
         return value;
