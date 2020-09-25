@@ -1,5 +1,5 @@
 {
-    "name": "json-bignumber",
+    "name": "json-bigi",
     "description": "Big number support in JSON",
     "version": "0.0.1",
     "main": "./index.js",
